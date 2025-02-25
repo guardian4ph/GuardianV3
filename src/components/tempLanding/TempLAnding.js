@@ -9,7 +9,14 @@ const TempLAnding = () => {
   };
   return (
     <div style={{ cursor: "pointer" }} onClick={handleRedirect}>
-      <div style={{ display: "flex", marginTop: "5%" }}>
+      <div
+        style={{
+          display: "flex",
+          marginTop: "5%",
+          alignContent: "center",
+          justifyContent: "center",
+        }}
+      >
         <ImageCarousel data={slides} />
       </div>
       <div
