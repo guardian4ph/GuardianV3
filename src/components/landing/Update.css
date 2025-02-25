@@ -1,0 +1,47 @@
+.updateContainer {
+  display: flex;
+
+  width: 1920px;
+  margin-top: 8px;
+  color: #000;
+}
+
+.imageAlertContainer {
+  display: flex;
+  width: 20%;
+}
+.imageAlert {
+  width: 220px;
+}
+.opcenImageAlert {
+  width: 80px;
+}
+
+.titleAlert {
+  display: flex;
+  width: 50%;
+  /* background-color: yellow; */
+  text-align: center;
+}
+
+.datetimeAlert {
+  display: flex;
+  width: 30%;
+}
+.opcenAlert {
+  display: flex;
+  width: 10%;
+}
+
+.alert_tr {
+  display: flex;
+  margin: 8px;
+}
+
+.alert_th,
+.alert_td {
+  display: flex;
+
+  text-align: center;
+  padding: 6px;
+}

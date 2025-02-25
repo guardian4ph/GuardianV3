@@ -1,13 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #215a75;
+  --dark-color: #174052;
+  --light-color: #90adba;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --mid-color: #4d7b91;
+  --background: #dddddd;
+  --shadow: #eeeeee;
+  --hover: #7a94a0;
+  --chat-own: #3d6f86;
+  --chat-party: #c8d6dc;
+  --menu-white: #ffff;
+  --official-color: #4d7b91;
+}
+::-webkit-input-placeholder {
+  font-size: 13px;
+  font-family: "Inter", "Roboto", "sans-serif";
+  color: #333;
+}
+
+::-moz-placeholder {
+  font-size: 13px;
+  font-family: "Inter", "Roboto", "sans-serif";
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  font-size: 20px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.smooth_loading {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.7903536414565826) 46%,
+    rgba(77, 123, 145, 1) 100%
+  );
+}
+
+.centerContents {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
