@@ -75,7 +75,7 @@ code {
 .body {
   display: flex;
   height: 100vh;
-  background-color: #fff;
+  background-color: #215a75;
   align-items: center;
   justify-content: center;
   cursor: pointer;
