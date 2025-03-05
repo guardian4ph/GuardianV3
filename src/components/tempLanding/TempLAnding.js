@@ -10,7 +10,15 @@ const TempLAnding = () => {
   };
   return (
     <div className="body" onClick={handleRedirect}>
-      <div style={{ display: "flex", width: "100%", marginBottom: "20px" }}>
+      <div
+        style={{
+          display: "flex",
+          width: "100%",
+          marginBottom: "20px",
+          alignContent: "center",
+          justifyContent: "center",
+        }}
+      >
         <ImageCarousel data={slides} />
       </div>
       <p className="footer1">
